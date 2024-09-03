@@ -9,6 +9,7 @@ extension StringProtocol {
     }
 }
 
+@available(iOS 15, *)
 extension AttributedStringProtocol {
     func match(_ pattern: String) -> [Range<AttributedString.Index>] {
         if let range = self.range(of: pattern, options: .regularExpression) {

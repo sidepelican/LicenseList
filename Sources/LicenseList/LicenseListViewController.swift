@@ -7,6 +7,7 @@ import SwiftUI
 /// - Displays a list of libraries that your project depends on via Swift Package Manager.
 /// - The list is sorted alphabetically by library name.
 /// - Selecting each library will open a details page where you can view the license body.
+@available(iOS 15, *)
 public class LicenseListViewController: UIViewController {
     /// The style that specifies behavior of license views.
     public var licenseViewStyle: LicenseViewStyle = .plain

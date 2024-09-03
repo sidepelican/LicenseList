@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// A view that displays license body.
+@available(iOS 15, *)
 public struct LicenseView: View {
     @State private var attributedLicenseBody = AttributedString(stringLiteral: "")
 

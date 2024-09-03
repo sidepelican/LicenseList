@@ -1,6 +1,7 @@
 import SwiftUI
 
 /// A view that presents license views in a list format.
+@available(iOS 15, *)
 public struct LicenseListView: View {
     @Environment(\.licenseViewStyle) private var licenseViewStyle: LicenseViewStyle
 
